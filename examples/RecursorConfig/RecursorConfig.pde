@@ -7,6 +7,7 @@ import com.jeremydouglass.recursor.*;
  *    1 2 3 4 5 (modes)
  *    q w e r t (modes + shuffle)
  */
+
 boolean shuffle = false;
 
 RecursorQueue rq = new RecursorQueue<float[]>() {

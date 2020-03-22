@@ -5,6 +5,7 @@ import com.jeremydouglass.recursor.RecursorQueue;
  * Progressively animate a recursive Sierpinski Triangle.
  * Press space to restart.
  */
+
 RecursorQueue rq = new RecursorQueue<CallST>() {
   public ArrayList<CallST> recurse(CallST call) {
     return call.recurse();

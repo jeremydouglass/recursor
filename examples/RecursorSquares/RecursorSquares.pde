@@ -4,7 +4,9 @@ import com.jeremydouglass.recursor.*;
  * 2020-03-19 Jeremy Douglass - Processing 3.4
  * Progressively animate recursion without threads.
  * Squares example.
+ * Press any key to randomize recurse mode and restart.
  */
+
 RecursorQueue rq = new RecursorQueue<float[]>() {
   public ArrayList<float[]> recurse(float[] call) {
     return recursiveSquare(call);
